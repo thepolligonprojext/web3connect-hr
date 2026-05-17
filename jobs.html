@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Submit your CV and portfolio to Web3Connect HR and our team will reach out with relevant opportunities.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Web3Connect HR | Candidate Submission">
+  <meta property="og:description" content="Share your profile with Web3Connect HR. We review and reach out with matched opportunities.">
+  <meta property="og:url" content="https://web3connecthr.com/jobs.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Web3Connect HR | Candidate Submission">
+  <meta name="twitter:description" content="Share your profile with Web3Connect HR. We review and reach out with matched opportunities.">
+  <link rel="canonical" href="https://web3connecthr.com/jobs.html">
+  <title>Web3Connect HR | Candidate Submission</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="Web3Connect HR Home">
+      <img src="logos/39Artboard 1.png" alt="Web3Connect HR logo">
+    </a>
+    <button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" aria-label="Primary">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a class="active" href="jobs.html">Candidates</a><a href="blog.html">Insights</a><a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main id="main-content">
+    <section class="hero">
+      <p class="eyebrow">Candidate Network</p>
+      <h1>Submit Your CV and Portfolio</h1>
+      <p>We review your profile and reach out directly when a strong match opens with one of our partner companies.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#candidate-form" data-track="candidate_start_form">Submit Profile</a>
+        <a class="btn secondary" href="contact.html" data-track="candidate_company_referral">Need to hire talent?</a>
+      </div>
+    </section>
+
+    <section class="grid cards">
+      <article class="card">
+        <h2>1. Share Your Profile</h2>
+        <p>Upload your CV and include your portfolio, GitHub, or LinkedIn link.</p>
+      </article>
+      <article class="card">
+        <h2>2. We Review</h2>
+        <p>Our recruiters map your background to active hiring mandates across our network.</p>
+      </article>
+      <article class="card">
+        <h2>3. We Reach Out</h2>
+        <p>If you match a role, we contact you directly with next steps and interview preparation.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Candidate Submission Form</h2>
+      <form id="candidate-form" class="card form-grid" aria-label="Candidate submission form">
+        <label for="candidate-name">Full Name</label>
+        <input id="candidate-name" name="full_name" type="text" autocomplete="name" required>
+        <label for="candidate-email">Email Address</label>
+        <input id="candidate-email" name="email" type="email" autocomplete="email" required>
+        <label for="candidate-location">Current Location</label>
+        <input id="candidate-location" name="location" type="text" autocomplete="address-level2" required>
+        <label for="candidate-role">Primary Role</label>
+        <input id="candidate-role" name="primary_role" type="text" placeholder="e.g., Solidity Engineer, Product Manager" required>
+        <label for="candidate-portfolio">Portfolio / LinkedIn / GitHub (optional)</label>
+        <input id="candidate-portfolio" name="portfolio_url" type="url" placeholder="https://">
+        <label for="candidate-resume">Upload CV</label>
+        <input id="candidate-resume" name="resume" type="file" required>
+        <label for="candidate-note">Anything we should know?</label>
+        <textarea id="candidate-note" name="candidate_note" rows="5" placeholder="Certifications, notice period, salary expectations, or preferred industries"></textarea>
+        <label class="check-row" for="candidate-consent">
+          <input id="candidate-consent" name="consent" type="checkbox" required>
+          <span>I agree that Web3Connect HR may contact me about relevant roles.</span>
+        </label>
+        <button class="btn primary" type="submit" data-track="candidate_submit_profile">Submit Profile</button>
+      </form>
+    </section>
+  </main>
+  <footer class="global-foot">
+    <div class="foot-wrap">
+      <p class="foot-meta">&copy; 2026 Web3Connect HR | New York HQ | Global recruitment partner</p>
+      <a class="footer-linkedin" href="https://www.linkedin.com/company/web3connecthr" target="_blank" rel="noopener noreferrer" aria-label="Web3Connect HR on LinkedIn">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3A1.96 1.96 0 1 0 5.3 6.92 1.96 1.96 0 0 0 5.25 3ZM20.44 13.47c0-3.37-1.8-4.94-4.2-4.94a3.64 3.64 0 0 0-3.3 1.82h-.05V8.5H9.52V20h3.37v-5.7c0-1.5.28-2.96 2.14-2.96 1.83 0 1.86 1.7 1.86 3.06V20h3.55v-6.53Z"/>
+        </svg>
+      </a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
