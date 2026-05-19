@@ -417,22 +417,24 @@ select, input, textarea {
   justify-content: center;
   color: #ffffff;
   text-decoration: none;
-  width: 42px;
-  height: 42px;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.42);
-  background: rgba(255, 255, 255, 0.08);
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+  background: #0A66C2;
+  margin-left: auto;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 8px rgba(10, 102, 194, 0.4);
 }
 .footer-linkedin svg {
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   fill: currentColor;
 }
 .footer-linkedin:hover {
-  opacity: 1;
+  background: #004182;
   transform: translateY(-2px);
-  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 14px rgba(10, 102, 194, 0.55);
 }
 
 .btn:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
@@ -481,7 +483,8 @@ select, input, textarea {
     min-height: 78px;
   }
   .foot-wrap { justify-content: flex-start; }
-  .foot-meta { width: 100%; }
+  .foot-meta { flex: 1; }
+  .footer-linkedin { margin-left: auto; }
 }
 
 @media (max-width: 560px) {
