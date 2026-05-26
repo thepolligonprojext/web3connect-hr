@@ -17,7 +17,9 @@ export default function Footer() {
           </a>
           <a
             className="footer-social-icon"
-            href="#"
+            href="https://x.com/web3connecthr"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Web3Connect HR on X / Twitter"
           >
             <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="currentColor">

@@ -109,7 +109,7 @@ export default function Contact() {
                 <p className="contact-info-label">Social</p>
                 <div className="social-links">
                   <a className="social-link" href="https://www.linkedin.com/company/web3connecthr" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                  <a className="social-link" href="#" aria-label="X / Twitter">X</a>
+                  <a className="social-link" href="https://x.com/web3connecthr" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter">X</a>
                   <a className="social-link" href="#" aria-label="Telegram">Telegram</a>
                 </div>
               </div>
